@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="aliens"/>
+    <meta name="description"
+        content="Aliens searching for Lukasz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien mission</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body onload="pulsateFinger()">
+
+    <div id="etUfoContainer">
+        <div id="etDIV">
+            <img id="etPic" src="et.png" alt="et">
+            <div id="fingerDIV" onclick="ufoLands()"></div>
+        </div>
+        <img id="ufo" src="ufo.png" alt="ufo">
+        <img id="et2" src="et2.png" alt="et2">
+    </div>
+
+
+    <div id="menuContainer">
+        <img id="headcut1" src="headcut1.png" onclick="redirect1()">
+        <img id="headcut2" src="headcut2.png" onclick="redirect2()">
+        <img id="headcut3" src="headcut3.png" onclick="redirect3()">
+        <img id="headcut4" src="headcut4.png" onclick="redirect4()">
+        <img id="brain" src="brain.png">
+        <img id="headcut5" src="headcut5.png">
+    </div>
+    <img id="smallFace" src="0.png" alt="alienface" onclick="showMenu()">
+
+    <div id="container">
+        <img id="greenplanet" src="greenplanet.png" alt="greenplanet">
+        <div id="xartext1DIV"></div>
+        <div id="xartext2DIV"></div>
+        <img id="xar" src="1.png" alt="xar">
+        <img id="back" src="ar14.png" onclick="xarTalksBack()"> 
+        <img id="forward" src="ar13.png" onclick="xarTalksForward()"> 
+        <div id="explosionContainer"></div>
+    </div>
+
+    <div id="crewDIV">
+        <img id="film1" src="film1.jpg" alt="film1" class="crewPics">
+        <img id="film2" src="film2.jpg" alt="film2" class="crewPics">
+        <img id="film3" src="film3.jpg" alt="film3" class="crewPics">
+        <img id="exitCrew" src="ar14.png" onclick="exitCrew()"> 
+    </div>
+
+    
+</body>
+
+</html>
+
